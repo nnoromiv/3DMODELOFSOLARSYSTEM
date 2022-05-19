@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3DSOLARSYSTEM</title>
+</head>
+
+<body class="solar_system">
+    <div id="navbar">
+        <a href="#data" id="toggle_data"><i class="icon_data"></i>Data</a>
+        <h1>3D MODEL OF THE SOLAR SYSTEM<br><span>BY <a href="http://twitter.com/nnoromiv" target="_blank" rel="noopener noreferrer">@NNOROMIV</a></span></h1>
+        <a href="#controls" id="toggle_controls"><i class="icon_control"></i>Controls</a>
+    </div>
+    <div id="data">
+        <a href="#sunspeed" title="sun" class="sun">Sun</a>
+        <a href="#mercuryspeed" title="mercury" class="mercury">Mercury</a>
+        <a href="#venusspeed" title="venus" class="venus">Venus</a>
+        <a href="#earthspeed" title="earth" class="earth active">Earth</a>
+        <a href="#marsspeed" title="mars" class="mars">Mars</a>
+        <a href="#jupiterspeed" title="jupiter" class="jupiter">Jupiter</a>
+        <a href="#saturnspeed" title="saturn" class="saturn">Saturn</a>
+        <a href="#uranusspeed" title="uranus" class="uranus">Uranus</a>
+        <a href="#neptunespeed" title="neptune" class="neptune">Neptune</a>
+    </div>
+    <div id="controls">
+        <label for="" class="set_view">
+            <input type="checkbox" name="" id="">
+        </label>
+        <label for="" class="set_zoom">
+            <input type="checkbox" name="" id="">
+        </label>
+        <label for="">
+            <input type="radio" name="scale" id="" class="set_speed" checked>
+            <span>Speed</span>
+        </label>
+        <label for="">
+            <input type="radio" name="scale" id="" class="set_size">
+            <span>Size</span>
+        </label>
+        <label for="">
+            <input type="radio" name="scale" id="" class="set_distance">
+            <span>Distance</span>
+        </label>
+    </div>
+    <div id="universe" class="scale_stretched">
+        <div id="galaxy">
+            <div id="solar_system" class="earth">
+                <div id="mercury" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Mercury</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="venus" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Venus</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="earth" class="orbit">
+                    <div class="position">
+                        <div class="orbit">
+                            <div class="position">
+                                <div class="moon"></div>
+                            </div>
+                        </div>
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Earth</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="mars" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Mars</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="jupiter" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Jupiter</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="saturn" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <div class="rings"></div>
+                            <dl class="info">
+                                <dt>Saturn</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="uranus" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Uranus</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="neptune" class="orbit">
+                    <div class="position">
+                        <div class="planet">
+                            <dl class="info">
+                                <dt>Neptune</dt>
+                                <dd><span></span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="sun">
+                    <dl class="info">
+                        <dt>Sun</dt>
+                        <dd><span></span></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

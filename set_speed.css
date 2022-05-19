@@ -1,0 +1,27 @@
+.set_speed dl.info dd span:after {
+    content: 'Orbit Velocity';
+}
+
+.set_speed #sun dl.info dd:after {
+    content: '0 km/h';
+}
+
+.set_speed #mercury dl.info dd:after {
+    content: '170,503 km/h';
+}
+
+.set_speed #venus dl.info dd:after {
+    content: '126,074 km/h';
+}
+
+.set_speed #earth dl.info dd:after {
+    content: '107,218 km/h';
+}
+
+.set_speed #mars dl.info dd:after {
+    content: '86,677 km/h';
+}
+
+.set_speed #jupiter dl.info dd:after {
+    content: '47,002 km/h';
+}

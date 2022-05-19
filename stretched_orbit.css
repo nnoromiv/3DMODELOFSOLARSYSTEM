@@ -1,0 +1,76 @@
+/* stretched orbits */
+
+.scale_stretched #mercury.orbit {
+    width: 32em;
+    height: 32em;
+    margin-top: -16em;
+    margin-left: -16em;
+}
+
+.scale_stretched #venus.orbit {
+    width: 40em;
+    height: 40em;
+    margin-top: -20em;
+    margin-left: -20em;
+}
+
+.scale_stretched #earth.orbit {
+    width: 56em;
+    height: 56em;
+    margin-top: -28em;
+    margin-left: -28em;
+}
+
+.scale_stretched #earth .orbit {
+    width: 6em;
+    height: 6em;
+    margin-top: -3em;
+    margin-left: -3em;
+}
+
+.scale_stretched #mars.orbit {
+    width: 72em;
+    height: 72em;
+    margin-top: -36em;
+    margin-left: -36em;
+}
+
+.scale_stretched #jupiter.orbit {
+    width: 100em;
+    height: 100em;
+    margin-top: -50em;
+    margin-left: -50em;
+}
+
+.scale_stretched #saturn.orbit {
+    width: 150em;
+    height: 150em;
+    margin-top: -75em;
+    margin-left: -75em;
+}
+
+.scale_stretched #uranus.orbit {
+    width: 186em;
+    height: 186em;
+    margin-top: -93em;
+    margin-left: -93em;
+}
+
+.scale_stretched #neptune.orbit {
+    width: 210em;
+    height: 210em;
+    margin-top: -105em;
+    margin-left: -105em;
+}
+
+.scale-s #saturn .planet {
+    font-size: 34.9392em;
+}
+
+.scale-s #uranus .planet {
+    font-size: 15.2172em;
+}
+
+.scale-s #neptune .planet {
+    font-size: 14.7732em;
+}

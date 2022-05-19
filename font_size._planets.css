@@ -1,0 +1,115 @@
+/* Planet size and Stretched sizes */
+
+.scale_stretched #sun {
+    font-size: 4em;
+}
+
+.scale_stretched #mercury .planet {
+    font-size: 1.5em;
+}
+
+.scale_stretched #venus .planet {
+    font-size: 3.72em;
+}
+
+.scale_stretched #earth .planet {
+    font-size: 3.92em;
+}
+
+.scale_stretched #earth .moon {
+    font-size: 1em;
+}
+
+.scale_stretched #mars .planet {
+    font-size: 2.9em;
+}
+
+.scale_stretched #jupiter .planet {
+    font-size: 12em;
+}
+
+.scale_stretched #saturn .planet {
+    font-size: 10.8em;
+}
+
+.scale_stretched #uranus .planet {
+    font-size: 4.68em;
+}
+
+.scale_stretched #neptune .planet {
+    font-size: 4.9em;
+}
+
+
+/* (planets radius * 2) * ratio , $distanceScaleRatio:   0.000075em;  planets distance scale sizes */
+
+.scale-d #sun {
+    font-size: 4.73048em;
+}
+
+.scale-d #mercury .planet {
+    font-size: 0.14634em;
+}
+
+.scale-d #venus .planet {
+    font-size: 0.36306em;
+}
+
+.scale-d #earth .planet {
+    font-size: 0.38226em;
+}
+
+.scale-d #earth .moon {
+    font-size: 0.08226em;
+}
+
+.scale-d #mars .planet {
+    font-size: 0.20334em;
+}
+
+.scale-d #jupiter .planet {
+    font-size: 4.19466em;
+}
+
+.scale-d #saturn .planet {
+    font-size: 3.49392em;
+}
+
+.scale-d #uranus .planet {
+    font-size: 1.52172em;
+}
+
+.scale-d #neptune .planet {
+    font-size: 1.47732em;
+}
+
+
+/*planet size scale sizes */
+
+.scale-s #sun {
+    font-size: 4.3048em;
+}
+
+.scale-s #mercury .planet {
+    font-size: 1.4634em;
+}
+
+.scale-s #venus .planet {
+    font-size: 3.6306em;
+}
+
+.scale-s #earth .planet {
+    font-size: 3.8226em;
+}
+
+.scale-s #earth .moon {
+    font-size: 0.8226em;
+}
+
+.scale-s #mars .planet {
+    font-size: 2.0334em;
+}
+
+.scale-s #jupiter .planet {
+    font-size: 41.9466em;
+}

@@ -1,0 +1,90 @@
+.view-3D .opening #sun,
+.view-3D .opening .orbit,
+.view-3D .opening .position,
+.view-3D .opening .planet,
+.view-3D .opening .satelite,
+.view-3D .opening .rings {
+    transition-duration: 4s;
+}
+
+.position {
+    transition-property: top, left;
+}
+
+#solar_system,
+.orbit,
+.planet,
+.satelite,
+.rings {
+    transition-property: width, height, top, left, margin-left, margin-top, webkit-transform;
+}
+
+#sun,
+.icon {
+    transition-property: width, height, webkit-transform;
+}
+
+#solar_system,
+#sun,
+.orbit,
+.position,
+.planet,
+.satelite,
+.rings,
+.info,
+.icon {
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
+}
+
+#solar_system,
+#sun,
+.planet,
+.satelite,
+.rings {
+    transition-delay: 0s;
+}
+
+.position {
+    transition-delay: 1s;
+}
+
+.opening #solar_system,
+.opening #sun,
+.opening .orbit,
+.opening .position,
+.opening .planet,
+.opening .satelite,
+.opening .rings,
+.opening .info,
+.opening h1,
+.opening #data,
+.opening dl.info,
+.opening #controls {
+    transition-duration: 0s;
+    transition-delay: 0s;
+}
+
+.opening .position {
+    transition-delay: 0s;
+}
+
+h1,
+#data,
+#controls {
+    transition-property: opacity, margin;
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
+}
+
+h1 {
+    transition-delay: .35s;
+}
+
+#data {
+    transition-delay: .7s;
+}
+
+#controls {
+    transition-delay: 1s;
+}

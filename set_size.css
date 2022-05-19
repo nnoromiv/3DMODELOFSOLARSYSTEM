@@ -1,0 +1,51 @@
+.set_size #sun dl.info dd:after {
+    content: '4,370,005 km';
+}
+
+.set_size #mercury dl.info dd:after {
+    content: '15,329 km';
+}
+
+.set_size #venus dl.info dd:after {
+    content: '38,024 km';
+}
+
+.set_size #earth dl.info dd:after {
+    content: '40,030 km';
+}
+
+.set_size #mars dl.info dd:after {
+    content: '21,296 km';
+}
+
+.set_size #jupiter dl.info dd:after {
+    content: '439,263 km';
+}
+
+.set_size #saturn dl.info dd:after {
+    content: '365,882 km';
+}
+
+.set_size #uranus dl.info dd:after {
+    content: '159,354 km';
+}
+
+.set_size #neptune dl.info dd:after {
+    content: '154,704 km';
+}
+
+.set_size dl.info dd span:after {
+    content: 'Equatorial Circumference';
+}
+
+.set_speed #saturn dl.info dd:after {
+    content: '34,701 km/h';
+}
+
+.set_speed #uranus dl.info dd:after {
+    content: '24,477 km/h';
+}
+
+.set_speed #neptune dl.info dd:after {
+    content: '19,566 km/h';
+}
